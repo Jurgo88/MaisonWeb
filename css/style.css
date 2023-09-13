@@ -1,0 +1,168 @@
+body {
+    background-color: #e6e6e6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212529;
+}
+nav{
+    border: 1px solid #ccc ;
+    margin: 5px;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    background-color: white;
+}
+.my-btn{
+    background-color: red;
+    color: white;
+    border-radius: 0;
+    border: 1px solid red;
+    padding: 10px 20px;
+    font-size: 16px;
+
+}
+.navbar-brand{
+    font-size: 28px;
+    font-weight: 500;
+    color: blue;
+    padding-left: 30px;
+}
+.navbar-right .nav-item{
+    padding-right: 30px;
+}
+.hero{
+    background-color: #f2f8ff;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    padding-left: 0;
+    height: 100%;
+    position: relative;
+}
+.hero-headline div{
+    padding-top: 100px;
+    padding-left: 25%;
+    /* position: absolute;
+    transform: translate(-50%,-50%); */
+    left: 0;
+    top: 50%;
+
+}
+.hero-headline span{
+    float: left;
+}
+.hero-headline p {
+    padding-left: 100px;
+    max-width: 500px;
+}
+.hero-headline h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: red;
+    padding-top: 100px;
+    padding-left: 0%;
+}
+.hero-headline h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: blue;
+    padding-left: 0%;
+}
+.hero-img{
+    background-image: url(../img/hero.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    /*width: 100%;
+    position: relative; */
+}
+.adidas{
+    background-color: white;
+    border: 1px solid #ccc ;
+    box-shadow: 5px 5px 5px 5px #ccc;
+}
+.adidas h3{
+    font-weight: 700;
+    color: red;
+    padding-top: 100px;
+    padding-left: 0%;
+}
+.adidas a {
+    text-decoration: unset;
+}
+.adidas-box{
+    background-color: #ebf2ff;
+    height: 250px;
+}
+.form{
+    background-color: white;
+    border: 1px solid #ccc ;
+    box-shadow: 5px 5px 5px 5px #ccc;
+}
+.form input{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0;
+    height: 50px;
+}
+.form textarea{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0;
+}
+.form select{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0;
+    height: 50px;
+}
+.pricing{
+    background-color: white;
+    border: 1px solid #ccc ;
+    box-shadow: 5px 5px 5px 5px #ccc;
+}
+
+@media screen and (max-width: 768px){
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .navbar-right .nav-item{
+        padding-right: 10px;
+    }
+    .my-btn{
+        width: 100%;
+    }
+    .hero-headline div{
+        padding-top: 0;
+        padding-left: 0;
+        /* height: 80vh; */
+    }
+    .hero-headline span{
+        float: none;
+    }
+    .hero-headline p {
+        padding-left: 0;
+        max-width: 100%;
+    }
+    .hero-headline h1{
+        padding-top: 0;
+    }
+    .hero-img{
+        height: 500px;
+    }
+}
+@media screen and (max-width: 576px){
+    .navbar-brand{
+        font-size: 16px;
+    }
+    .navbar-right .nav-item{
+        padding-right: 5px;
+    }
+    .hero{
+        height: 100%;
+    }
+}
+/* @media screen and (max-width: 992px){
+
+    .hero{
+        height: 60vh;
+    }
+} */
