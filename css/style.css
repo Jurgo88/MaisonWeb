@@ -10,6 +10,13 @@ nav{
     margin: 5px;
     box-shadow: 5px 5px 5px 5px #ccc;
     background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.navbar-toggler{
+    color: blue;
+    border: none;
 }
 .my-btn{
     background-color: red;
@@ -20,6 +27,20 @@ nav{
     font-size: 16px;
 
 }
+.my-btn:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+.nav-btn{
+    width: 2rem; 
+    height: 2rem;
+    border-radius: 30%;
+    background-color: #bcdcff;
+    border: none;
+    color: blue;
+    font-weight: 600;
+}
 .navbar-brand{
     font-size: 28px;
     font-weight: 500;
@@ -28,6 +49,16 @@ nav{
 }
 .navbar-right .nav-item{
     padding-right: 30px;
+    color: blue;
+}
+.navbar-nav{
+    left: 40%;
+}
+.navbar-nav a{
+    color: red;
+}
+.nav-link .active{
+    color: red;
 }
 .hero{
     background-color: #f2f8ff;
@@ -119,6 +150,146 @@ nav{
     border: 1px solid #ccc ;
     box-shadow: 5px 5px 5px 5px #ccc;
 }
+.card{
+    border: none;
+    border-radius: 0;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    color: blue;
+    font-size: large;
+    padding: 0px 20px;
+    min-height: 600px;
+    margin: 30px 0;
+}
+.card-icon{
+    /* background-color: #ebf2ff; */
+    /* border: 1px solid #ccc ; */
+    height: 75px;
+    width: 75px;
+    margin: 10px
+}
+.card-pricing{
+    padding-top: 100px ;
+}
+.card-price{
+    font-size: 66px;
+    font-weight: 700;
+    color: red;
+    padding-right: 10px;
+}
+.card h5 {
+    font-weight: 500;
+    padding-right: 10px;
+}
+.card-bottom{
+    margin: 20px;
+}
+
+.testimonials{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #ccc ;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    color: blue;
+    padding-bottom: 50px;
+    /* height: 300px; */
+}
+.testimonial-info{
+    width: inherit;
+    color: red;
+    padding: 10px;
+}
+.testimonials .photo{
+    background-color: #bcdcff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc ;
+    float: left;
+    margin-right: 25px;
+}
+.testimonials .reviews{
+    min-height: 300px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.reviews span {
+    padding: ;
+}
+/* Základní styly pro slider */
+
+#prevSlide{
+    height: 30px;
+    width: 30px;
+    border-top : 5px solid blue;
+    border-left : 5px solid blue;
+    transform: rotate(-45deg) !important;
+
+}
+#nextSlide {
+    height: 30px;
+    width: 30px;
+    border-top : 5px solid blue;
+    border-left : 5px solid blue;
+    transform: rotate(135deg) !important;
+    margin-right: 50px;
+
+}
+    
+
+footer{
+    background-color: #ffffff;
+    border: 1px solid #ccc ;
+    box-shadow: 5px 5px 5px 5px #ccc;
+    padding: 20px;
+    padding-top: 50px;
+}
+footer .footer-logo{
+    font-size: 28px;
+    font-weight: 500;
+    color: blue;
+    padding-left: 30px;
+}
+footer .footer-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+    padding: 20px 0px;
+}
+footer .footer-links{
+    font-size: 16px;
+    font-weight: 500;
+    color: blue;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: blue;
+}
+footer a:hover{
+    opacity: 0.8;
+}
+.footer-links  input{
+    border: none;
+    background-color: aliceblue;
+    border-radius: 0;
+    height: 50px;
+    opacity: 0.5;;
+}
+.subscribe p{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 991px){
+    .testimonials .reviews .review-2,
+    .testimonials .reviews .review-3,
+    #nextSlide,
+    #prevSlide{
+        display: none;
+    }
+    .testimonials .reviews{
+        padding-left: 0px;
+    }
+}
+
 
 @media screen and (max-width: 768px){
     .navbar-brand{
@@ -148,6 +319,10 @@ nav{
     .hero-img{
         height: 500px;
     }
+    .testimonials .row .back-btn{
+        display: none;
+    }
+
 }
 @media screen and (max-width: 576px){
     .navbar-brand{
