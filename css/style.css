@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    color: #212529;
+    color: #0568f5;
 }
 nav{
     border: 1px solid #ccc ;
@@ -15,7 +15,6 @@ nav{
 
 }
 .navbar-toggler{
-    color: blue;
     border: none;
 }
 .my-btn{
@@ -41,18 +40,17 @@ nav{
     border-radius: 30%;
     background-color: #bcdcff;
     border: none;
-    color: blue;
     font-weight: 600;
+    color: #0568f5;
 }
 .navbar-brand{
     font-size: 28px;
-    font-weight: 500;
-    color: blue;
+    font-weight: 600;
+    color: #0568f5;
     padding-left: 30px;
 }
 .navbar-right .nav-item{
     padding-right: 30px;
-    color: blue;
 }
 .navbar-nav{
     left: 40%;
@@ -103,7 +101,6 @@ nav{
 .hero-headline h2{
     font-size: 20px;
     font-weight: 500;
-    color: blue;
     padding-left: 0%;
 }
 .hero-img{
@@ -164,7 +161,7 @@ nav{
     border: none;
     border-radius: 0;
     box-shadow: 2px 2px 2px 2px #ccc;
-    color: blue;
+    color: #0568f5;
     font-size: large;
     padding: 0px 20px;
     min-height: 600px;
@@ -198,7 +195,6 @@ nav{
     background-color: rgb(255, 255, 255);
     border: 1px solid #ccc ;
     box-shadow: 5px 5px 5px 5px #ccc;
-    color: blue;
     padding-bottom: 50px;
     /* height: 300px; */
 }
@@ -221,24 +217,25 @@ nav{
     padding-left: 100px;
     padding-top: 50px;
 }
-.reviews span {
-    padding: ;
+.review-1,
+.review-2,
+.review-3{
+    font-size: 17px;
 }
-/* Základní styly pro slider */
 
 #prevSlide{
     height: 30px;
     width: 30px;
-    border-top : 5px solid blue;
-    border-left : 5px solid blue;
+    border-top : 2px solid #0568f5;
+    border-left : 2px solid #0568f5;
     transform: rotate(-45deg) !important;
 
 }
 #nextSlide {
     height: 30px;
     width: 30px;
-    border-top : 5px solid blue;
-    border-left : 5px solid blue;
+    border-top : 2px solid #0568f5;
+    border-left : 2px solid #0568f5;
     transform: rotate(135deg) !important;
     margin-right: 50px;
 
@@ -255,7 +252,6 @@ footer{
 footer .footer-logo{
     font-size: 28px;
     font-weight: 500;
-    color: blue;
     padding-left: 30px;
 }
 footer .footer-heading{
@@ -267,12 +263,10 @@ footer .footer-heading{
 footer .footer-links{
     font-size: 16px;
     font-weight: 500;
-    color: blue;
     text-decoration: none;
 }
 footer a{
     text-decoration: none;
-    color: blue;
 }
 footer a:hover{
     opacity: 0.8;
@@ -314,7 +308,6 @@ footer a:hover{
     .hero-headline div{
         padding-top: 0;
         padding-left: 0;
-        /* height: 80vh; */
     }
     .hero-headline span{
         float: none;
@@ -345,9 +338,3 @@ footer a:hover{
         height: 100%;
     }
 }
-/* @media screen and (max-width: 992px){
-
-    .hero{
-        height: 60vh;
-    }
-} */
